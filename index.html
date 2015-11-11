@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>Sara Weinand | Web Designer & Front-End Developer</title> 
+    <!--Viewport Meta Tag--><meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Fonts--> <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    
+    <!--Stylesheets-->
+    <link rel='stylesheet' href='css/normalize.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='css/slice.css' type='text/css' media='all'> 
+    <link rel='stylesheet' href='css/recentwork.css' type='text/css' media='all'> 
+    <link rel='stylesheet' href='css/styles.css' type='text/css' media='all'> 
+ 
+</head>
+<body>
+
+<div class="framework_container">
+	
+    <div class="col one">
+        <section class="landing">
+            <nav class="primaryNav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+            <nav class="socialMedia">
+                <li><a href="http://dribbble.com/helloimsara"><img src="img/socialmedia-01.png" alt=""></a></li>
+                <li><a href="http://instagram.com/saraweinand"><img src="img/socialmedia-02.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/saraweinand"><img src="img/socialmedia-03.png" alt=""></a></li>
+                <li><a href="http://github.com/saraweinand"><img src="img/socialmedia-04.png" alt=""></a></li>
+            </nav>
+
+            <img src="img/myname.png" alt="">
+            <h1>coffee addicted web creative from the PNW <em>...pssst, scroll down!</em></h1>
+            <h2></h2>
+
+            <!--<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 144 93" enable-background="new 0 0 144 93" xml:space="preserve">
+<polygon fill="#4C4C4D" points="74.8,86.9 107.5,47.8 140.1,8.7 74.8,8.7 9.4,8.7 42.1,47.8 "/>
+<path fill="#232323" d="M139.8,6.8c0.1-0.7-1.1-1.3-1.5-0.5c0,0,0,0,0,0.1c-0.3-0.7-1.5-0.6-1.5,0.3c-7.3,0.1-14.6,0.4-21.9,0.8  c-7.7,0.1-15.3,0.2-23,0.3c-22.3,0-44.6,0-67,0c-5.3-0.4-10.6-0.6-15.9,0c-0.9,0-1.7,0-2.6,0C6,7.8,5.8,8,5.7,8.2  C5.1,8.3,4.5,8.4,4,8.5C3.2,8.7,3.3,9.7,3.8,10c0.1,0.3,0.3,0.5,0.7,0.5c0,0,0,0,0,0c0.1,0.1,0.2,0.2,0.3,0.3  c3.5,1.7,5.6,5.2,8.3,7.8c3.4,3.3,6.8,6.7,10.2,10c6.7,6.7,13,13.3,18.8,20.8c5.3,6.8,11.5,12.9,17.4,19.2c2.4,2.6,5,5,7.6,7.4  c3,3.3,6,6.6,8.5,10.3c0.1,0.1,0.2,0.2,0.3,0.2c0.1,0.2,0.2,0.3,0.4,0.4c0,0,0,0.1,0.1,0.1c0.4,0.7,1.4,0.3,1.5-0.3  c0.2,0,0.4-0.1,0.5-0.2c2-2,3.8-4.1,5.7-6.2c1.1-1,2.2-2,3.2-3.1c2.7-2.8,4.9-6.1,7.1-9.2c1.8-2.5,3.4-5,5-7.6  c3-4.1,5.9-8.3,8.8-12.3c5.1-7,10.2-14.1,15.7-20.8c3.3-4.1,6.7-8.1,9.9-12.2c1.9-2.1,3.7-4.3,5.2-6.7c0.1,0,0.2,0,0.4,0  C140.2,8.3,140.4,7.2,139.8,6.8z M82.2,9.6C78,9.8,73.9,10,69.7,10.1c-6.3,0.2-12.6,0.2-18.9-0.1C61.3,9.9,71.7,9.7,82.2,9.6z   M43.4,48.3c-5.8-7.5-12.1-14.1-18.8-20.8c-3.3-3.3-6.6-6.6-10-9.8c6,5.4,11.6,11,17.3,16.7c3.3,3.8,6.6,7.6,9.8,11.4  c3.8,4.4,7.3,8.9,10.9,13.4C49.4,55.6,46.3,52,43.4,48.3z M99.1,57.6c-2.1,2.8-4.1,5.5-6.2,8.3c-3.5,4.8-7,9.5-10.8,14  c-1,0.9-1.9,1.7-2.9,2.6c3.3-6.4,8.6-11.9,12.9-17.6c3.2-4.2,6.5-8.3,9.9-12.3C101,54.3,100.1,56,99.1,57.6z M136,9.4  c-1.1,1.6-2.3,3.1-3.5,4.6c-1,1-1.9,1.9-2.7,2.7c-3,3.1-6.1,6.1-9,9.3c-5,5.6-9.4,11.7-13.5,18c-0.6,0.7-1.2,1.4-1.9,2.1  c-5.6,6.1-10.7,12.6-15.7,19.2c-4.6,6.1-10.2,11.9-13.2,19.1c-2.6-3.8-5.7-7.1-9-10.3c-2.1-2.2-4.1-4.5-6.1-6.8  c-5.6-6.5-10.7-13.4-16.2-20c4.9,4.8,9.7,9.6,14.1,14.8c5.5,6.8,10.4,13.9,16.9,19.9c0.8,0.7,1.9-0.4,1.1-1.1  c-6.1-5.6-10.9-12.2-16-18.7C56.2,55.6,50.1,49.8,44.1,44c-3.7-3.5-7.3-7.1-10.9-10.7C25.8,25,18,17,8.9,10.5  c8.2,0,16.5-0.1,24.7-0.2c1.2,0.1,2.3,0.3,3.5,0.4c11.4,1.3,22.8,1.4,34.2,1c13.2-0.4,26.3-1.5,39.5-2.3  C119.2,9.4,127.6,9.4,136,9.4z"/>
+</svg>-->
+        </section>   
+    </div>
+
+<div class="col two-even about" id="about">
+
+        
+        <section><img src="img/Sara23.png" alt=""></section>
+        <section><h2 class="sectionTitle"><img src="img/aboutme-01.png" alt=""></h2><h5>Hello, I'm Sara! I create beautiful & functional websites!</h5><p>I've been interested in designing the web for as long as I can remember, but it took some rad professors and a welcoming group of design students to help me get on the track to being a professional! I don’t just “make things pretty.” I research, organize, problem solve, and craft experiences. My passion is designing for web and the mapping out the interaction between user and interface. As a designer, I pay attention to detail and give every pixel the attention it needs to create great work. I'm a recent graduate of Eastern Washington University where I earned my B.A. in Visual Communication Design. During my time at EWU I put a great deal of emphasis on the design and development on the web. I've recently located to Bellingham, Washington with my husband and two dogs.</p> 
+</section>
+    </div>
+     <!--<div class="col four-even skills">
+        
+        <section>
+           <img src="img/webdesign.png" alt=""><h4>Web Design</h4><p>Every website begins with a clients needs and turns into a medium that delivers information and communication to their customers.</p>
+         </section>
+        <section>
+            <img src="img/uxdesign.png" alt=""><h4>UX Design</h4><p>I have adopted a forward thinking user centered approach to design because I believe usability and functionality are key elements in a successful digital campaign.</p>
+         </section>
+        <section>
+            <img src="img/development.png" alt=""><h4>Web Development</h4><p>I practice responsive and cross browser web development which allows users to interact with a website across all devices and browers.</p>
+         </section>
+         <section>
+            <img src="img/graphicdesign.png" alt=""><h4>Graphic Design</h4><p>While most of my skills lie in the web spectrum, I can also create applealing and functional branding packages and advertisments.</p>
+         </section>
+    </div>-->
+
+
+    <div class="col one tabs" id="process">
+        <img src="img/designprocess-01.png" class="title">
+        
+
+            <nav role="navigation" class="transformer-tabs">
+            <ul>
+              <li><a href="#tab-1" class="active">1</a></li>
+              <li><a href="#tab-2">2</a></li>
+              <li><a href="#tab-3">3</a></li>
+              <li><a href="#tab-4">4</a></li>
+              <li><a href="#tab-5">5</a></li>
+            </ul>
+          </nav>
+          
+          <div id="tab-1" class="active">
+            <img src="img/500x500.png" alt="">
+            <div class="processContent"><h2>Ideation & Sketching</h2>
+            <p>I like to put all my ideas on paper. I start with a concept and immediately define what that concept is going to achieve. What is the call to action? I’ll list all of the goals and aspects of the design and the importance of the content. This part of the process usually involves narrowing down the  intended user and what it is I want them to accomplish.</p></div>
+          </div>
+          
+          <div id="tab-2">
+            <img src="img/500x500.png" alt="">
+            <div class="processContent"><h2>Information Architecture</h2>
+            <p>After the initial ideation phase, I organize the information by laying out a site map that includes all of the relevant information that will be present on each page.</p></div>
+          </div>
+          
+          <div id="tab-3">
+            <img src="img/500x500.png" alt="">
+            <div class="processContent"><h2>User Flows</h2>
+            <p>When the content is organized by page, I then begin sketching and re-sketching how the user can reach each page from different parts of the site. </p></div>
+          </div>
+          
+          <div id="tab-4">
+            <img src="img/500x500.png" alt="">
+            <div class="processContent"><h2>Detailed Wireframes & Redlines</h2>
+            <p>I personally like to do all my initial wireframing on paper so I can record all the extra notes that will go into the design and interaction of the page, such as transitions and content ideas. (These we cleaned up so you can read them.)</p></div>
+          </div>
+
+          <div id="tab-5">
+            <img src="img/500x500.png" alt="">
+            <div class="processContent"><h2>Prototype & Mockups</h2>
+            <p>I have strong HTML/CSS skills, so my preferred prototyping technique includes creating a high fidelity mock-up by developing it. However, when dealing with client interactions, I often will create a mockup in photoshop with notes detailing how the parts will work.</p></div>
+          </div>
+
+    
+    </div>
+
+    <div class="col three-even work cd-main-content" id="work">
+
+
+        <img src="img/recentwork-01.png" class="recentwork">
+
+        <section>
+            <img src="img/stremler.jpg" alt="">
+            <div class="workDescription">
+                <h4>Stremler Gravel</h4>
+                <em>Web Design | Front-End Development</em>
+            </div>
+            <div class="workButtons">
+                <a href="#0" class="cd-btn-1">Details</a><a href="http://saraweinand.github.io/stremlergravel/">Demo</a>
+            </div>
+        </section>
+
+        <section>
+            <img src="img/fineartbybarb.jpg" alt="">
+            <div class="workDescription">
+            <h4>Fine Art by Barb</h4>
+            <em>Web Design | Front-End Development</em></div>
+            <div class="workButtons"><a href="#0" class="cd-btn-2">Details</a><a href="http://fineartbybarb.com">Demo</a></div>
+        </section>
+
+        <section>
+            <img src="img/tenji.jpg" alt="">
+            <div class="workDescription">
+            <h4>Tenji Modern Sushi</h4>
+            <em>UX Design | Web Design | Front-End Development</em></div>
+            <div class="workButtons"><a href="#0" class="cd-btn-3">Details</a><a href="http://saraweinand.github.io/restaurant-01/">Demo</a></div>
+        </section>
+        <section>
+            <img src="img/oakwood.jpg" alt="">
+            <div class="workDescription">
+            <h4>Oakwood Apparel</h4>
+            <em>UX Design | Web Design | Front-End Development</em></div>
+            <div class="workButtons"><a href="#0" class="cd-btn-4">Details</a><a href="http://saraweinand.github.io/oakwood/">Demo</a></div>
+        </section>
+        <section>
+            <img src="img/slice.jpg" alt="">
+            <div class="workDescription">
+            <h4>Slice Framework</h4>
+            <em>Front-End Development | Web Design</em></div>
+            <div class="workButtons"><a href="#0" class="cd-btn-5">Details</a><a href="http://saraweinand.github.io/slice/">Demo</a></div>
+        </section>
+        <section>
+            <img src="img/printworktoo.jpg" alt="">
+            <div class="workDescription">
+            <h4>Print</h4>
+            <em>Print | Illustration </em></div>
+            <div class="workButtons"><a href="#0" class="cd-btn-6">Quick View</a><a href="http://dribbble.com/helloimsara">Dribbble</a></div>
+        </section>
+        
+    </div>
+
+
+
+
+<!--*************** recent work content ***************-->
+
+
+
+    <div class="cd-panel-1 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+    <div class="cd-panel-1 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="img/stremler.png" alt="">
+                <h4>Stremler Gravel: In Progress</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/stremlergravelpage.jpg" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+
+
+
+    <div class="cd-panel-2 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+
+    <div class="cd-panel-2 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="img/barb.png" alt="">
+                <h4>Fine Art by Barb | April 2015</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/barbmockup.png" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+
+    
+
+    <div class="cd-panel-3 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+    <div class="cd-panel-3 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="img/tenji.png" alt="">
+                <h4>Tenji Modern Sushi | Personal Project</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/tenjimockup.jpg" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-3 -->
+
+
+    
+
+
+    <div class="cd-panel-4 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+    <div class="cd-panel-4 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="img/oakwood.png" alt="">
+                <h4>Oakwood Men's Apparel | Personal Project</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/oakwoodmockup.jpg" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-4 -->
+
+
+    
+
+
+    <div class="cd-panel-5 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+    <div class="cd-panel-5 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="img/slice.png" alt="">
+
+                <h4>Slice: Responsive HTML Framework</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/slicemockup.jpg" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-5 -->
+
+
+
+    <div class="cd-panel-6 from-left">
+
+        <div class="cd-panel-container left">
+            
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-1 -->
+    <div class="cd-panel-6 from-right">
+
+        <div class="cd-panel-container">
+            <div class="cd-panel-content">
+                <img src="http://placehold.it/900x400" alt="">
+                <h4>Stremler Gravel: In Progress</h4>
+                <h5>Web Design | Front End Development</h5>
+                <h6>About the Project:</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+                <img src="img/stremlergravelpage.jpg" alt="">
+                <h6>Design Elements:</h6><br>
+                <div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div><div class="colorPallet"></div>
+                <h2>Typeface Name</h2>
+                <h3>a b c d e f g h i j k l m n o p q r s t u v w x y z</h3>
+                <img src="http://placehold.it/900x400" alt="">
+                <img src="http://placehold.it/900x400" alt="">
+                <h6>Wireframes & User Flows</h6> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto.</p>
+
+            </div> <!-- cd-panel-content -->
+        </div> <!-- cd-panel-container -->
+    </div> <!-- cd-panel-6 -->
+
+
+
+
+    
+<!--*************** END recent work content ***************-->
+
+
+
+
+
+    <div class="col one contact" id="contact">
+        <img src="img/contact-01.png" class="getintouch">
+        
+        <section><em>I'm looking for a full time Web design / Front End Developer / UX Designer position.<br>
+            I love to talk, so comment on my work or just say hello!</em>
+        <h6>SARAWEINAND@GMAIL.COM</h6>
+        <ul>
+            <li><a href="http://dribbble.com/helloimsara"><img src="img/socialmedia-01.png" alt=""></a></li>
+                <li><a href="http://instagram.com/saraweinand"><img src="img/socialmedia-02.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/saraweinand"><img src="img/socialmedia-03.png" alt=""></a></li>
+                <li><a href="http://github.com/saraweinand"><img src="img/socialmedia-04.png" alt=""></a></li>
+        </ul></section>
+    </div>
+
+
+    
+
+
+
+</div><!--framework_container-->
+
+	<!--scripts-->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type='text/javascript' src='js/jquery.min.js'></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+
+    <script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 500,
+            width         : 1000,
+            responsive    : true,
+            randomstart   : false
+          });
+          
+        });
+      </script>
+
+</body>
+</html>

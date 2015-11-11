@@ -1,0 +1,540 @@
+section img {
+	width: 100%;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #eee;
+	overflow-x: hidden;
+}
+
+h2 {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: 300;
+
+}
+
+.landing {
+	height: 100vh;
+	/*background: #769da4;*/
+	background: url(../img/mtbaker-01.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing img {
+	margin: 5% 0 3% 5%;
+	width: 85%;
+	max-width: 900px;
+}
+
+.landing h1 {
+	font-weight: 300;
+	color: #eee;
+	text-align: right;
+	font-size: 1.25em;
+	margin: 0 2% 2% 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+
+}
+
+.landing svg {
+	width: 3%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 47.5%;
+	margin-bottom: 2%;
+}
+
+a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+  color: #ccc;
+}
+a:visited {
+  color: #ccc;
+}
+a:hover {
+  color: #05abaf;
+}
+a:active {
+}
+
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+	padding-right: 1.75em;
+	font-size: .9em;
+	letter-spacing: .2em;
+}
+
+.primaryNav {
+	float: left;
+	margin: 1.75% 0 0 2%;
+}
+
+
+.socialMedia {
+	float: right;
+	margin: 1% 2% 0 0;
+}
+
+.socialMedia li{
+	width: 2em;
+}
+
+.socialMedia li img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+.tabs .sectionTitle {
+	margin-top: 3%;
+	color: #fff;
+}
+
+.transformer-tabs ul {
+  list-style: none;
+  width: 10%;
+  float: left;
+  display: block;
+  /*background: url('http://cdn.shopify.com/s/files/1/0219/2364/t/3/assets/Dotted_Line.png?701113322281929605') no-repeat center center;*/
+}
+
+.transformer-tabs li {
+  display: block;
+  padding: 0;
+  vertical-align: bottom;
+  background: #a5c5cb;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  margin: 15% 0% 
+}
+
+.transformer-tabs li:after {
+	content: " ";
+	display: block;
+	width: 2px;
+	height: 22px;
+	background: #fff;
+	margin-left: 48%;
+}
+
+.transformer-tabs li:last-of-type:after {
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	background: #fff;
+	margin-left: 50%;
+
+
+}
+
+
+.transformer-tabs li:nth-child(1) .active,
+.transformer-tabs li:nth-child(2) .active,
+.transformer-tabs li:nth-child(3) .active,
+.transformer-tabs li:nth-child(4) .active,
+.transformer-tabs li:nth-child(5) .active{
+  border-radius: 50%;
+  width: 1.15em;
+  height: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.transformer-tabs a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.transformer-tabs a.active {
+  border-bottom: 3px solid transparent;
+  position: relative;
+}
+
+
+.tabs > div {
+  display: none;
+  padding: 1rem;
+}
+
+.tabs > .active {
+  display: block;
+}
+
+.tabs {
+  background: #a5c5cb;
+  color: #333;
+}
+
+.tabs img.title {
+	width: 50%;
+	margin: -3% 35% -5% 1%;
+	display: block;
+	float: left;
+	z-index: 9999;
+}
+
+.tabs img {
+	width: 50%;
+	float: left;
+	margin: -4% 0 0 -3%;
+	padding: 0 3% 5% 0;
+}
+
+
+.tabs .processContent {
+	width: 30%;
+	float: left;
+	margin-top: -5%;
+}
+
+.tabs .sectionTitle,
+.contact .sectionTitle {
+	padding-left: 10%;
+}
+
+.work {
+	width: 80%;
+	margin: 5% 10% 0 10%;
+}
+
+.work img.recentwork {
+	width: 50%;
+	margin: -10% -20% -4% 60%;
+	z-index: 1;
+	position: relative;
+
+}
+
+.work section {
+    width: 32%;
+    margin: 0% .5% 1% .5%;
+    background: #3a5e60;
+    position: relative;
+    color: #fff;
+}
+
+.work section:last-of-type {
+	margin-bottom: 7%;
+}
+
+.work section .workDescription {
+	padding: 2% 0 5% 5%;
+}
+
+.work section .workButtons {
+	display: block;
+	margin: 0 0 6% 5%;
+	
+}
+
+.work section .workButtons a {
+	border: 1px solid #ddd;
+	text-decoration: none;
+	padding: 1.5% 5%;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: .8em;
+	color: #ddd;
+	margin: 0 4% 0 0;
+}
+
+.work section .workButtons a:hover {
+	background: #ddd;
+	color: #333;
+}
+
+.work h4 {
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-weight: 600;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+}
+
+.work em {
+
+	font-weight: 300;
+	font-size: .9em;
+
+}
+
+.work a img {
+	margin-top: 5%;
+}
+
+div.colorPallet  {
+	height: 3em;
+	width: 3em;
+	display: inline-block;
+	background: grey;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin: 3%;
+}
+
+.about { 
+	width: 100%;
+	padding: 0 10%;
+}
+
+
+.about .sectionTitle img {
+	margin: -13% 0 0 -18%;
+	width: 80%;
+}
+
+.about h5 {
+	margin: -9% 0 0 0;
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #873a4b;
+}
+
+.about section:first-of-type{
+	width: 30%;
+	display: block;
+	margin: 0 auto 7% auto ;
+	float: left;
+}
+
+.about section:first-of-type img {
+	width: 80%;
+	display: block;
+	margin: 20% auto 0 auto;
+}
+
+.about .sectionTitle {
+	margin: 15% auto 0 auto;
+}
+
+.contact {
+	background: #769da4;
+	text-align: center;
+	color: #fff;
+}
+
+.contact img.getintouch {
+	width: 60%;
+	margin: -3% auto 0 auto;
+}
+
+.contact ul {
+	margin: -2% 0 5% -3%;
+}
+
+.contact ul li{
+	width: 2em;
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.contact ul img{
+	width: 100%;
+}
+
+.contact h6 {
+	font-size: 1.2em;
+	letter-spacing: .1em;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+	.landing img {
+    margin: 15% 0 3% 5%;
+}
+
+	.about section:first-of-type img {
+    width: 100%;
+}
+
+.about .sectionTitle img {
+    width: 110%;
+    margin-top: 9%;
+}
+
+.about h5 {
+    margin: -9% 0 0 8%;
+    font-size: 1.5em;
+}
+
+.about p {
+    width: 90vw;
+    margin: 16% 0 15% -70%;
+
+}
+
+.tabs img.title {
+    width: 70%;
+
+}
+
+.work img.recentwork {
+    width: 70%;
+    margin: -10% -20% -4% 40%;
+}
+
+	.skills section {
+		width: 47%;
+		margin-bottom: 5%;
+	}
+
+	.tabs img {
+		width: 80%;
+		padding-left: 4%;
+	}
+
+	.tabs .processContent {
+		 width: 70%;
+		 margin: -2% 0 3% 15%;
+	}
+
+	.tabs .sectionTitle {
+		margin-left: 6%;
+	}
+
+	.three-even section:nth-child(1),
+	.three-even section:nth-child(2),
+	.three-even section:nth-child(3),
+	.three-even section:nth-child(4),
+	.three-even section:nth-child(5),
+	.three-even section:nth-child(6),
+	.three-even section:nth-child(7) {
+		width:49%;
+	}
+}
+
+@media screen and (max-width: 480px) { 
+
+	.landing img {
+	margin-top: 25%;
+	width: 100%;
+
+	}
+
+	.about .sectionTitle img {
+    width: 110%;
+    margin-top: -100%;
+    margin-left: 3%;
+}
+
+.about h5 {
+    width: 90vw;
+    margin-left: -5%;
+
+}
+
+.about p {
+    width: 85vw;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.tabs img.title {
+    width: 90%;
+}
+
+.work img.recentwork {
+    width: 90%;
+    margin: -10% -20% -4% 20%;
+}
+
+	.skills section {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	.tabs img {
+		width: 98%;
+		padding-left: 4%;
+	}
+
+	.tabs .processContent {
+		 width: 90%;
+		 margin: -2% 0 8% 5%;
+	}
+
+	.tabs .sectionTitle {
+		margin-left: 0%;
+	}
+
+	.three-even section:nth-child(1),
+	.three-even section:nth-child(2),
+	.three-even section:nth-child(3),
+	.three-even section:nth-child(4),
+	.three-even section:nth-child(5),
+	.three-even section:nth-child(6),
+	.three-even section:nth-child(7){
+		width:100%;
+	}
+
+	.about section:first-of-type {
+		width: 83%;
+		margin-top: -5%;
+	}
+
+	.about section:last-of-type {
+		width: 80%;
+	}
+
+
+.transformer-tabs ul {
+  width: 100%;
+
+}
+
+	.transformer-tabs li {
+  display: inline-block;
+  margin: -3% 10% 5% 0;
+}
+
+.transformer-tabs li:after {
+	content: " ";
+	display: inline-block;
+	width: 0;
+	height:0;
+	background: #fff;
+	position: absolute;
+}
+
+.contact em {
+    margin: 0 8%;
+}
+
+}
+
+
+/*CLEARFIX*/
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
