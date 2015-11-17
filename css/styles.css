@@ -354,19 +354,19 @@ nav li a {
 
 
 .barb_elements .colorPallet:nth-child(1) {
-	background: #d52228;
+	background: #3f3f3f;
 }
 .barb_elements .colorPallet:nth-child(2) {
-	background: #202f34;
-}
-.barb_elements .colorPallet:nth-child(3) {
-	background: #ddd;
-}
-.barb_elements .colorPallet:nth-child(4) {
 	background: #fff;
 }
+.barb_elements .colorPallet:nth-child(3) {
+	background: #89a79f;
+}
+.barb_elements .colorPallet:nth-child(4) {
+	background: #474747;
+}
 .barb_elements .colorPallet:nth-child(5) {
-	background: #575757;
+	background: #181818;
 }
 
 .tenji_elements {
@@ -388,19 +388,19 @@ nav li a {
 
 
 .tenji_elements .colorPallet:nth-child(1) {
-	background: #d52228;
+	background: #ffffff;
 }
 .tenji_elements .colorPallet:nth-child(2) {
-	background: #202f34;
+	background: #ed6523;
 }
 .tenji_elements .colorPallet:nth-child(3) {
-	background: #ddd;
+	background: #ac1f23;
 }
 .tenji_elements .colorPallet:nth-child(4) {
-	background: #fff;
+	background: #484848;
 }
 .tenji_elements .colorPallet:nth-child(5) {
-	background: #575757;
+	background: #000;
 }
 
 .oakwood_elements {
@@ -422,19 +422,19 @@ nav li a {
 
 
 .oakwood_elements .colorPallet:nth-child(1) {
-	background: #d52228;
+	background: #212121;
 }
 .oakwood_elements .colorPallet:nth-child(2) {
-	background: #202f34;
+	background: #444444;
 }
 .oakwood_elements .colorPallet:nth-child(3) {
-	background: #ddd;
+	background: #353945;
 }
 .oakwood_elements .colorPallet:nth-child(4) {
-	background: #fff;
+	background: #fbad1c;
 }
 .oakwood_elements .colorPallet:nth-child(5) {
-	background: #575757;
+	background: #ffffff;
 }
 
 .slice_elements {
@@ -445,7 +445,7 @@ nav li a {
 
 .slice_elements h2,
 .slice_elements h3 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'proxmima nova', sans-serif;
 	text-align: center;
 	width: 90%;
 }
@@ -456,19 +456,19 @@ nav li a {
 
 
 .slice_elements .colorPallet:nth-child(1) {
-	background: #d52228;
+	background: #000;
 }
 .slice_elements .colorPallet:nth-child(2) {
-	background: #202f34;
+	background: #19737a;
 }
 .slice_elements .colorPallet:nth-child(3) {
-	background: #ddd;
+	background: #4dbfad;
 }
 .slice_elements .colorPallet:nth-child(4) {
-	background: #fff;
+	background: #fbdd00;
 }
 .slice_elements .colorPallet:nth-child(5) {
-	background: #575757;
+	background: #ffffff;
 }
 
 

@@ -407,6 +407,14 @@
   margin-bottom: 50%;
 }
 
+.cd-panel-5 .cd-panel-content img:last-of-type {
+  margin-bottom: 0%;
+}
+
+.cd-panel-5 .slice_elements {
+  margin-bottom: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-panel-content p {
     font-size: 16px;
