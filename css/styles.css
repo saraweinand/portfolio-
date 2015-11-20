@@ -49,12 +49,10 @@ p {
 }
 
 .landing svg {
-	width: 3%;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	margin-right: 47.5%;
-	margin-bottom: 2%;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	
 }
 
 
