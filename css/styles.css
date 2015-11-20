@@ -49,14 +49,24 @@ p {
 }
 
 .landing svg {
-	width: 45%;
-	position: absolute;
-	top: 100%;
-	left: 100%;
-	margin-top: -50%;
-	margin-left: -50%;
-	display: block;
-	margin: 0 auto;
+    width: 50%;
+    display: block;
+    padding: 5% 25% 0 25%;
+}
+
+.landing h2 {
+	color: #fff;
+	font-size: .9em;
+	text-align: center;
+	width: 40%;
+}
+
+.landing button {
+	background: rgba(255,255,255,.8);
+	color: #000;
+	padding: 1em 2em;
+	border: none;
+	
 	
 }
 
