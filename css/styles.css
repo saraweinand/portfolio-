@@ -64,16 +64,21 @@ p {
 
 .landing button {
     background: rgba(255,255,255,.8);
-    padding: 1em 2em;
+    padding: .5em 2.25em;
     border: none;
     display: block;
     margin: 3% auto;
+}
+
+.landing button:hover {
+    background: rgba(255,255,255,1);
 }
 
 .landing button a {
 	color: #000;
 	text-transform: uppercase;
 	font-size: .8em;
+	font-weight: 300;
 }
 
 
