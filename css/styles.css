@@ -105,10 +105,10 @@ p {
 
 .bgvid{
   position:absolute;
-  left:0;
-  top:0;
+  left:-2%;
+  top:-2%;
   bottom: 0;
-  width: 100%;
+  width: 105%;
   background: #000;
 }
 
