@@ -1,3 +1,92 @@
+/* BEGIN SLICE FRAMEWORK */
+.frameworkcontainer {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+.col {
+	margin:0;
+	padding:0;
+	display: block;
+	float:left;
+
+}
+
+section {
+	float: left;
+	display: inline-block;
+}
+
+.one,
+.two-even,
+.three-even,
+.four-even,
+.fifty-fifty {
+	width: 100%;
+	display: block;
+}
+
+/*---- even splits ----*/
+
+.one section{
+	width: 100%;
+}
+
+.two-even section,
+.fifty-fifty {
+  	width: 50%;
+}
+
+.three-even section{
+	width:33.33%;
+}
+
+
+
+
+
+/* Tablet Devices - Portrait */
+
+@media screen and (max-width: 768px) {
+	.three-even section:nth-child(1),
+	.three-even section:nth-child(2){
+		width:50%;
+	}
+	.three-even section:nth-child(3){
+		width:100%;
+	}
+	
+
+}
+
+
+
+
+
+
+/* Mobile Phones*/
+
+@media screen and (max-width: 480px) {
+	.two-even section,
+	.three-even section:nth-child(1),
+	.three-even section:nth-child(2),
+	.three-even section:nth-child(3){
+		width:100%;
+	} 
+
+}
+
+/*END SLICE FRAMEWORK */
+
+
+
+
+
+
 section img {
 	width: 100%;
 }
