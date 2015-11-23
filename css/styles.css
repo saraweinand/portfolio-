@@ -26,6 +26,7 @@ p {
   top:0;
   bottom: 0;
   width: 100%;
+  background: #000;
 }
 
 .bgvid.inner{
