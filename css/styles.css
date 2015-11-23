@@ -1,11 +1,5 @@
+
 /* BEGIN SLICE FRAMEWORK */
-.frameworkcontainer {
-	width: 1200px;
-	margin: 0 auto;
-	padding: 0px;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
 
 
 .col {
@@ -138,25 +132,7 @@ p {
 
 }
 
-.landing img {
-	margin: 5% 0 3% 5%;
-	width: 85%;
-	max-width: 900px;
-}
 
-.landing h1 {
-	font-weight: 600;
-	color: #eee;
-	text-align: right;
-	font-size: 1.25em;
-	margin: 0 2% 2% 0;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	text-transform: uppercase;
-
-
-}
 
 .helloimsara {
     width: 50%;
@@ -280,9 +256,6 @@ a:hover {
 }
 
 
-.primaryNav {
-	position: fixed;
-}
 
 nav li {
 	display: inline-block;
@@ -298,10 +271,6 @@ nav li a {
 	letter-spacing: .2em;
 }
 
-.primaryNav {
-	float: left;
-	margin: 1.75% 0 0 2%;
-}
 
 
 .socialMedia {
@@ -317,11 +286,6 @@ nav li a {
 	width: 100%;
 }
 
-
-.tabs .sectionTitle {
-	margin-top: 3%;
-	color: #fff;
-}
 
 .transformer-tabs ul {
   list-style: none;
@@ -434,23 +398,11 @@ nav li a {
 	margin-top: 10%;
 }
 
-.tabs .sectionTitle,
-.contact .sectionTitle {
-	padding-left: 10%;
-}
-
 .work {
 	width: 80%;
 	margin: 5% 10% 0 10%;
 }
 
-.work img.recentwork {
-	width: 50%;
-	margin: -10% -20% -4% 60%;
-	z-index: 1;
-	position: relative;
-
-}
 
 .work section {
     width: 32%;
@@ -506,9 +458,6 @@ nav li a {
 
 }
 
-.work a img {
-	margin-top: 5%;
-}
 
 .colorPallet  {
 	height: 3em;
@@ -880,20 +829,8 @@ nav li a {
 	margin-bottom: 8%;
 }
 
-.tabs img.title {
-    width: 70%;
 
-}
 
-.work img.recentwork {
-    width: 70%;
-    margin: -10% -20% -4% 40%;
-}
-
-	.skills section {
-		width: 47%;
-		margin-bottom: 5%;
-	}
 
 	.tabs img {
 		width: 80%;
@@ -905,9 +842,6 @@ nav li a {
 		 margin: -2% 0 3% 15%;
 	}
 
-	.tabs .sectionTitle {
-		margin-left: 6%;
-	}
 
 	.three-even section:nth-child(1),
 	.three-even section:nth-child(2),
@@ -957,29 +891,9 @@ nav li a {
 
 	}
 
-	.about .sectionTitle img {
-    width: 110%;
-    margin-top: -100%;
-    margin-left: 3%;
-}
 
 
 
-
-
-.tabs img.title {
-    width: 90%;
-}
-
-.work img.recentwork {
-    width: 90%;
-    margin: -10% -20% -4% 20%;
-}
-
-	.skills section {
-		width: 100%;
-		margin-bottom: 5%;
-	}
 
 	.tabs img {
 		width: 98%;
@@ -991,9 +905,6 @@ nav li a {
 		 margin: -2% 0 8% 5%;
 	}
 
-	.tabs .sectionTitle {
-		margin-left: 0%;
-	}
 
 	.three-even section:nth-child(1),
 	.three-even section:nth-child(2),
@@ -1041,7 +952,4 @@ nav li a {
 
 }
 
-
-/*CLEARFIX*/
-.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
