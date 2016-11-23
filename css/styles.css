@@ -138,7 +138,7 @@ p {
 
 .landing {
 	height: 100vh;
-   background: url(../img/me-bg.jpg) no-repeat center center; 
+   background: #5be8c3; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -493,7 +493,7 @@ nav li a {
 .work section {
     width: 32%;
     margin: 0 .5% 1% .5%;
-    background: #404E57;
+    background: #323232;
     position: relative;
     color: #fff;
 }
